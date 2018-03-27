@@ -11,9 +11,7 @@
 		F2BC71972063077D00D0F69B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2BC71952063077D00D0F69B /* Main.storyboard */; };
 		F2BC71992063077D00D0F69B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2BC71982063077D00D0F69B /* Assets.xcassets */; };
 		F2BC719C2063077D00D0F69B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2BC719A2063077D00D0F69B /* LaunchScreen.storyboard */; };
-		F2BC71B3206307CA00D0F69B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BC71B1206307CA00D0F69B /* ViewController.swift */; };
 		F2BC71B4206307CA00D0F69B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BC71B2206307CA00D0F69B /* User.swift */; };
-		F2BC71B7206307F000D0F69B /* UnitTestDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BC71B5206307F000D0F69B /* UnitTestDemoTests.swift */; };
 		F2BC71B8206307F000D0F69B /* UserTest2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BC71B6206307F000D0F69B /* UserTest2.swift */; };
 /* End PBXBuildFile section */
 
@@ -36,9 +34,7 @@
 		F2BC719D2063077D00D0F69B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2BC71A22063077E00D0F69B /* UnitTestDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTestDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2BC71A82063077E00D0F69B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F2BC71B1206307CA00D0F69B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../../../../../../.Trash/UnitTest/XCTest/UnitTestDemo/UnitTestDemo/ViewController.swift; sourceTree = "<group>"; };
 		F2BC71B2206307CA00D0F69B /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		F2BC71B5206307F000D0F69B /* UnitTestDemoTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UnitTestDemoTests.swift; path = ../../../../../../../.Trash/UnitTest/XCTest/UnitTestDemo/UnitTestDemoTests/UnitTestDemoTests.swift; sourceTree = "<group>"; };
 		F2BC71B6206307F000D0F69B /* UserTest2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTest2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,7 +79,6 @@
 			children = (
 				F2BC71912063077D00D0F69B /* AppDelegate.swift */,
 				F2BC71B2206307CA00D0F69B /* User.swift */,
-				F2BC71B1206307CA00D0F69B /* ViewController.swift */,
 				F2BC71952063077D00D0F69B /* Main.storyboard */,
 				F2BC71982063077D00D0F69B /* Assets.xcassets */,
 				F2BC719A2063077D00D0F69B /* LaunchScreen.storyboard */,
@@ -95,7 +90,6 @@
 		F2BC71A52063077E00D0F69B /* UnitTestDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				F2BC71B5206307F000D0F69B /* UnitTestDemoTests.swift */,
 				F2BC71B6206307F000D0F69B /* UserTest2.swift */,
 				F2BC71A82063077E00D0F69B /* Info.plist */,
 			);
@@ -206,7 +200,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2BC71B4206307CA00D0F69B /* User.swift in Sources */,
-				F2BC71B3206307CA00D0F69B /* ViewController.swift in Sources */,
 				F2BC71922063077D00D0F69B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -215,7 +208,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2BC71B7206307F000D0F69B /* UnitTestDemoTests.swift in Sources */,
 				F2BC71B8206307F000D0F69B /* UserTest2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
